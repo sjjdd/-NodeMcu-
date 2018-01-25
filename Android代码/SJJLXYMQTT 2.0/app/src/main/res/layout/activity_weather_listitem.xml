@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:background="@drawable/list_item_shape"
+    android:padding="10dp" >
+
+    <TextView
+        android:id="@+id/tvDayofWeek"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="15dp"
+        android:text="星期日" />
+
+    <TextView
+        android:id="@+id/tvDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tvDayofWeek"
+        android:layout_alignBottom="@+id/tvDayofWeek"
+        android:layout_alignParentRight="true"
+        android:text="20160207" />
+
+    <TextView
+        android:id="@+id/tvTemperature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvDayofWeek"
+        android:layout_below="@+id/tvDayofWeek"
+        android:layout_marginTop="15dp"
+        android:text="temperature" />
+
+    <TextView
+        android:id="@+id/tvWeather"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvTemperature"
+        android:layout_below="@+id/tvTemperature"
+        android:layout_marginTop="15dp"
+        android:text="weather" />
+
+</RelativeLayout>

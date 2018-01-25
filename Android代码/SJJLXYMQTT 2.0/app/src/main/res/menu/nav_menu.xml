@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/search_weather"
+            android:icon="@drawable/weather"
+            android:title="搜索天气情况"
+            />
+        <item
+            android:id="@+id/open_camera"
+            android:icon="@drawable/camera"
+            android:title="打开家中监控"
+            />
+    </group>
+
+</menu>

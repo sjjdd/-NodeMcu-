@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="company.sunjunjie.come.sjjlxymqtt">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/app"
+        android:label="空气质量管家"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SJJLXYSplashActivity"
+           >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SJJLXYMainActivity"
+            android:label="空气质量检测管家"></activity>
+        <activity
+            android:name=".SJJLXYWeatherActivity"
+            android:label="搜索近7天天气情况"
+            android:theme="@style/AppTheme" />
+
+    </application>
+
+</manifest>
